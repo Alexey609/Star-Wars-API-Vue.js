@@ -1,18 +1,15 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="https://vignette.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20190313021755" height="500" width="1000">
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
+  // components: {
+  //   HelloWorld
+  // }
 }
 </script>

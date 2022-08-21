@@ -1,7 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Домашняя</router-link> |
+    <router-link to="/about">Статистика вселенной</router-link> |
+    <router-link to="/planets">Планеты</router-link>
   </div>
   <router-view/>
 </template>
@@ -25,6 +26,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: goldenrod;
 }
 </style>
